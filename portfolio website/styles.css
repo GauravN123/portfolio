@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: gray;
+  font-family: "Fira Sans", sans-serif;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 45px;
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0;
+  color: white;
+  text-decoration: none;
+}
+.sidebar nav li:hover {
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
+.main {
+  /* background-color: yellow; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.infoContainer {
+  background-color: whitesmoke;
+  height: 78vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* background-color:; */
+}
+.hello {
+  font-size: 60px;
+  font-family: "Source Code Pro", monospace;
+}
+
+.name {
+  font-size: 70px;
+}
+
+.about {
+  font-family: "Source Code Pro", monospace;
+  font-size: 45px;
+}
+.moreAboutMe {
+  font-family: "Source Code Pro", monospace;
+  font-size: 20px;
+  margin: 23px;
+}
+.buttons button,
+btn-btn-sm button {
+  padding: 17px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: dodgerblue;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3 px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: dodgerblue;
+  background-color: white;
+}
+
+.devPic img {
+  width: 381px;
+  height: 450px;
+}
+.contactform {
+  padding: 0 34px;
+  padding-top: 144px;
+  font-family: "Fira Sans", sans-serif;
+}
+.contactform h1 {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+}
+.contactform form div {
+  padding: 10px 0;
+}
+#emailHelp {
+  font-size: 8px;
+  color: midnightblue;
+  margin: 0 5px;
+}
+
+.blogItem {
+  margin: 20px;
+  font-family: "Fira Sans", sans-serif;
+}
+.blogContainer h1 {
+  font-family: "Fira Sans", sans-serif;
+  margin: 23 px;
+}
+.blogItem p {
+  font-family: "Source Code Pro", monospace;
+}
+btn-btn-sm button {
+}
